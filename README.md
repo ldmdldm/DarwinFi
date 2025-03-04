@@ -7,7 +7,6 @@
 [![Hackathon](https://img.shields.io/badge/Hackathon-Submission-00FFFF)](https://dorahacks.io/hackathon/injective-ai/detail)
 
 <div align="center">
-<img src="https://via.placeholder.com/300x300.png?text=DarwinFi" alt="DarwinFi Logo" width="300"/>
 <h3>Evolutionary DeFi: Where Yield Strategies Adapt </h3>
 </div>
 
@@ -21,13 +20,11 @@ DarwinFi represents a fundamental shift with its Agent Evolution System, it is a
 
 ### 🧠 AI Agent Evolution System
 
-<img align="right" src="https://via.placeholder.com/200x200.png?text=Evolution" width="200"/>
-
-* AI-powered strategic agents begin with fundamental yield farming approaches
-* Machine learning models analyze market conditions to optimize decision-making
+* AI strategic agents begin with fundamental yield farming approaches
+* Machine learning models analyze market conditions 
 * Neural networks predict potential yield opportunities across multiple protocols
 * Performance metrics determine which strategies survive and reproduce
-* Successful strategies combine attributes to create improved next-generation strategies
+* Successful strategies combine attributes to create improved strategies
 * Failed approaches are systematically analyzed to prevent repeating ineffective methods
 
 ### 🌐 Collective Intelligence Framework
@@ -51,7 +48,6 @@ DarwinFi's agents don't just find yield - they anticipate where opportunities wi
 ## 🤖 AI Integration
 
 <div align="center">
-<img src="https://via.placeholder.com/600x200.png?text=AI+Agent+Architecture" alt="AI Architecture" width="600"/>
 </div>
 
 DarwinFi leverages cutting-edge AI technology to create intelligent agents that interact with Injective's blockchain infrastructure:
@@ -76,7 +72,6 @@ DarwinFi leverages cutting-edge AI technology to create intelligent agents that 
 ## 🚀 Implementation on Injective EVM
 
 <div align="center">
-<img src="https://via.placeholder.com/600x200.png?text=Injective+EVM+Integration" alt="Injective Integration" width="600"/>
 </div>
 
 DarwinFi leverages Injective's powerful EVM infrastructure for several critical advantages, creating an ideal environment for AI-driven finance:
