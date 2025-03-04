@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { WalletProvider } from './contexts/WalletContext';
+import WalletHeader from './components/WalletHeader';
 import { BarChart3, Dna, LineChart, RefreshCw, TrendingUp, Zap, ChevronRight, Activity, Settings, PieChart, Clock, ArrowUpRight, ArrowDownRight, Info, AlertTriangle, Layers, Cpu } from 'lucide-react';
 import { StrategyRegistry } from './core/StrategyRegistry';
 import { StrategyFactory } from './core/StrategyFactory';
@@ -711,66 +713,36 @@ function App() {
     );
   }
 
-  return (
+return (
+<WalletProvider>
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white">
-      <header className="bg-gray-800/80 backdrop-blur-sm border-b border-gray-700 sticky top-0 z-10">
-        <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-          <div className="flex items-center">
-            <div className="relative mr-3">
-              <Dna className="w-8 h-8 text-blue-500" />
-              <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-500 rounded-full border-2 border-gray-800"></div>
-            </div>
-            <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-              DarwinFi
-            </h1>
-          </div>
-          <div className="flex items-center space-x-4">
-            {isEvolving ? (
-              <div className="flex items-center text-yellow-400 bg-yellow-900/20 px-4 py-2 rounded-lg border border-yellow-800/50">
-                <RefreshCw className="w-5 h-5 mr-2 animate-spin" />
-                <span>Evolution in progress...</span>
-              </div>
-            ) : (
-              <button 
-                className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 px-4 py-2 rounded-lg flex items-center shadow-lg transition-all duration-200 hover:shadow-blue-900/30"
-                onClick={handleTriggerEvolution}
-              >
-                <Zap className="w-5 h-5 mr-2" />
-                <span>Trigger Evolution</span>
-              </button>
-            )}
-            <button className="p-2 rounded-lg hover:bg-gray-700 transition-colors">
-              <Settings className="w-5 h-5" />
-            </button>
-          </div>
-        </div>
-      </header>
-      
-      <nav className="bg-gray-800/50 backdrop-blur-sm border-b border-gray-700 sticky top-16 z-10">
-        <div className="container mx-auto px-4">
-          <div className="flex">
-            <button 
-              className={`px-6 py-3 font-medium transition-colors ${selectedTab === 'overview' ? 'text-blue-400 border-b-2 border-blue-400' : 'text-gray-400 hover:text-white'}`}
-              onClick={() => setSelectedTab('overview')}
-            >
-              Overview
-            </button>
-            <button 
-              className={`px-6 py-3 font-medium transition-colors ${selectedTab === 'strategyDetails' ? 'text-blue-400 border-b-2 border-blue-400' : 'text-gray-400 hover:text-white'}`}
-              onClick={() => selectedTab === 'strategyDetails' ? null : setSelectedTab('overview')}
-            >
-              Strategy Details {strategyDetails ? `(${strategyDetails.name})` : ''}
-            </button>
-          </div>
-        </div>
-      </nav>
-      
-      <main className="container mx-auto px-4 py-6">
-        {selectedTab === 'overview' && renderOverviewTab()}
-        {selectedTab === 'strategyDetails' && renderStrategyDetailsTab()}
-      </main>
-    </div>
-  );
-}
-
-export default App;
+    <WalletHeader />
+            
+                <nav className="bg-gray-800/50 backdrop-blur-sm border-b border-gray-700 sticky top-16 z-10">
+                    <div className="container mx-auto px-4">
+                    <div className="flex">
+                        <button 
+                        className={`px-6 py-3 font-medium transition-colors ${selectedTab === 'overview' ? 'text-blue-400 border-b-2 border-blue-400' : 'text-gray-400 hover:text-white'}`}
+                        onClick={() => setSelectedTab('overview')}
+                        >
+                        Overview
+                        </button>
+                        <button 
+                        className={`px-6 py-3 font-medium transition-colors ${selectedTab === 'strategyDetails' ? 'text-blue-400 border-b-2 border-blue-400' : 'text-gray-400 hover:text-white'}`}
+                        onClick={() => selectedTab === 'strategyDetails' ? null : setSelectedTab('overview')}
+                        >
+                        Strategy Details {strategyDetails ? `(${strategyDetails.name})` : ''}
+                        </button>
+                    </div>
+                    </div>
+                </nav>
+                
+                <main className="container mx-auto px-4 py-6">
+                    {selectedTab === 'overview' && renderOverviewTab()}
+                    {selectedTab === 'strategyDetails' && renderStrategyDetailsTab()}
+                </main>
+                </div>
+            </WalletProvider>
+            );
+        
+        export default App;

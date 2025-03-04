@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
+    "@injectivelabs/networks": "^1.14.41",
+    "@injectivelabs/sdk-ts": "^1.14.41",
+    "@injectivelabs/wallet-ts": "^1.14.41",
+    "ethers": "^5.7.2"
+  }
+}
