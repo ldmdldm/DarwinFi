@@ -8,17 +8,18 @@
 
 <div align="center">
 <img src="https://via.placeholder.com/300x300.png?text=DarwinFi" alt="DarwinFi Logo" width="300"/>
-<h3>Evolutionary DeFi: Where Yield Strategies Adapt and Thrive</h3>
+<h3>Evolutionary DeFi: Where Yield Strategies Adapt </h3>
 </div>
 
-## 📋 Overview
+## 📋 TL,DR
 
-DarwinFi introduces an evolutionary approach to yield optimization in decentralized finance. By applying principles of natural selection to trading strategies, we've created a self-improving system that continuously adapts to market conditions without requiring manual intervention.
+DarwinFi introduces an evolutionary approach to yield optimization in decentralized finance by applying principles of natural selection to trading strategies. We've created a self-improving system that continuously adapts to market conditions without requiring manual intervention.
 
-Unlike traditional yield aggregators that rely on predefined strategies or human decision-making, DarwinFi represents a fundamental shift with its Agent Evolution System - a framework where AI-powered yield optimization strategies evolve through generations, becoming more sophisticated and effective over time. By leveraging Injective's EVM capabilities, our intelligent agents can autonomously interact with DeFi protocols to maximize returns.
-## ✨ Key Features
+DarwinFi represents a fundamental shift with its Agent Evolution System, it is a framework where AI yield optimization strategies evolve through generations becoming more sophisticated and effective over time by using Injective's EVM capabilities, this way our intelligent agents can autonomously interact with DeFi protocols to maximize returns.
 
-### 🧠 AI-Driven Agent Evolution System
+## ✨ Features
+
+### 🧠 AI Agent Evolution System
 
 <img align="right" src="https://via.placeholder.com/200x200.png?text=Evolution" width="200"/>
 
