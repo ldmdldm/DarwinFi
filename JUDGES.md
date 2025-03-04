@@ -2,11 +2,11 @@
 
 ## Executive Summary
 
-DarwinFi is a decentralized finance platform that leverages evolutionary algorithms to optimize trading strategies on the Injective Protocol. By combining the power of genetic algorithms with the high-performance trading infrastructure of Injective, DarwinFi creates a new paradigm for automated, self-improving trading systems.
+DarwinFi is a decentralized finance platform that uses evolutionary algorithms to optimize trading strategies on the Injective Protocol by combining the power of genetic algorithms with the infrastructure of Injective. DarwinFi tries to create a new paradigm for automated trading systems.
 
-Our platform allows traders to deploy strategies that continuously evolve and adapt to changing market conditions without manual intervention. Similar to how natural selection improves species over time, DarwinFi's algorithms evaluate, crossbreed, and mutate trading strategies to discover increasingly profitable approaches to market participation.
+Our platform allows traders to deploy strategies that continuously evolve and adapt to changing market conditions without manual intervention. Similar to how natural selection improves species over time, DarwinFi's algorithms evaluate, crossbreed and mutate trading strategies to discover increasingly profitable approaches to market participation.
 
-## Key Features
+## Features
 
 ### 1. Evolutionary Strategy Engine
 - Implements genetic algorithms to evolve trading strategies based on performance metrics

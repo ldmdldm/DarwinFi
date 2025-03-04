@@ -7,26 +7,24 @@
 [![Hackathon](https://img.shields.io/badge/Hackathon-Submission-00FFFF)](https://dorahacks.io/hackathon/injective-ai/detail)
 
 <div align="center">
-<img src="https://via.placeholder.com/300x300.png?text=DarwinFi" alt="DarwinFi Logo" width="300"/>
-<h3>Evolutionary DeFi: Where Yield Strategies Adapt and Thrive</h3>
+<h3>Evolutionary DeFi: Adaptative Yield Strategies </h3>
 </div>
 
-## 📋 Overview
+## 📋 TL,DR
 
-DarwinFi introduces an evolutionary approach to yield optimization in decentralized finance. By applying principles of natural selection to trading strategies, we've created a self-improving system that continuously adapts to market conditions without requiring manual intervention.
+DarwinFi introduces an evolutionary approach to yield optimization in decentralized finance by applying principles of natural selection to trading strategies. We've created a self-improving system that continuously adapts to market conditions without requiring manual intervention.
 
-Unlike traditional yield aggregators that rely on predefined strategies or human decision-making, DarwinFi represents a fundamental shift with its Agent Evolution System - a framework where AI-powered yield optimization strategies evolve through generations, becoming more sophisticated and effective over time. By leveraging Injective's EVM capabilities, our intelligent agents can autonomously interact with DeFi protocols to maximize returns.
-## ✨ Key Features
+DarwinFi represents a fundamental shift with its Agent Evolution System, it is a framework where AI yield optimization strategies evolve through generations becoming more sophisticated and effective over time by using Injective's EVM capabilities, this way our intelligent agents can autonomously interact with DeFi protocols to maximize returns.
 
-### 🧠 AI-Driven Agent Evolution System
+## ✨ Features
 
-<img align="right" src="https://via.placeholder.com/200x200.png?text=Evolution" width="200"/>
+### 🧠 AI Agent Evolution System
 
-* AI-powered strategic agents begin with fundamental yield farming approaches
-* Machine learning models analyze market conditions to optimize decision-making
+* AI strategic agents begin with fundamental yield farming approaches
+* Machine learning models analyze market conditions 
 * Neural networks predict potential yield opportunities across multiple protocols
 * Performance metrics determine which strategies survive and reproduce
-* Successful strategies combine attributes to create improved next-generation strategies
+* Successful strategies combine attributes to create improved strategies
 * Failed approaches are systematically analyzed to prevent repeating ineffective methods
 
 ### 🌐 Collective Intelligence Framework
@@ -50,7 +48,6 @@ DarwinFi's agents don't just find yield - they anticipate where opportunities wi
 ## 🤖 AI Integration
 
 <div align="center">
-<img src="https://via.placeholder.com/600x200.png?text=AI+Agent+Architecture" alt="AI Architecture" width="600"/>
 </div>
 
 DarwinFi leverages cutting-edge AI technology to create intelligent agents that interact with Injective's blockchain infrastructure:
@@ -75,7 +72,6 @@ DarwinFi leverages cutting-edge AI technology to create intelligent agents that 
 ## 🚀 Implementation on Injective EVM
 
 <div align="center">
-<img src="https://via.placeholder.com/600x200.png?text=Injective+EVM+Integration" alt="Injective Integration" width="600"/>
 </div>
 
 DarwinFi leverages Injective's powerful EVM infrastructure for several critical advantages, creating an ideal environment for AI-driven finance:
@@ -157,53 +153,23 @@ npx hardhat run scripts/deploy-injective-evm.ts --network injectiveEvmTestnet
 ## 🏆 About the Hackathon
 
 <div align="center">
-<img src="https://via.placeholder.com/600x300.png?text=Injective+AI+Agent+Hackathon" alt="Hackathon Banner" width="600"/>
 </div>
 
 This project is being developed as part of the [Injective AI Agent Hackathon on DoraHacks](https://dorahacks.io/hackathon/injective-ai/detail), where the convergence of AI and blockchain technologies is creating unprecedented opportunities for innovation.
 
-* **Timeline:** April 18, 2024 - May 20, 2024
-* **Prize Pool:** $150,000
+* **Timeline:** 
+Opens January 21, 2025
+
+Hackathon Start Date: February 4, 2025
+
+Online Submission Deadline: March 17, 2025
+
+Project Evaluation Deadline: March 31st, 2025
+* **Prize Pool:** $100,000
 * **Track:** AI Agent Innovation
 * **Team:** DarwinFi Team
 
-The hackathon challenges participants to build AI agents that can autonomously interact with the Injective blockchain. DarwinFi showcases how AI agents can revolutionize DeFi by creating intelligent, adaptive strategies that evolve over time to maximize yield in changing market conditions.
-## 👨‍💻 Team
-
-<div align="center">
-<table>
-    <tr>
-    <td align="center">
-        <a href="https://github.com/teammember1">
-        <img src="https://via.placeholder.com/100x100.png?text=Developer+1" width="100px;" alt="Developer 1"/><br />
-        <sub><b>Alex Johnson</b></sub>
-        </a><br />
-        <sub>Lead Developer</sub>
-    </td>
-    <td align="center">
-        <a href="https://github.com/teammember2">
-        <img src="https://via.placeholder.com/100x100.png?text=Developer+2" width="100px;" alt="Developer 2"/><br />
-        <sub><b>Sarah Chen</b></sub>
-        </a><br />
-        <sub>AI Specialist</sub>
-    </td>
-    <td align="center">
-        <a href="https://github.com/teammember3">
-        <img src="https://via.placeholder.com/100x100.png?text=Developer+3" width="100px;" alt="Developer 3"/><br />
-        <sub><b>Michael Park</b></sub>
-        </a><br />
-        <sub>Smart Contract Engineer</sub>
-    </td>
-    <td align="center">
-        <a href="https://github.com/teammember4">
-        <img src="https://via.placeholder.com/100x100.png?text=Developer+4" width="100px;" alt="Developer 4"/><br />
-        <sub><b>Ava Williams</b></sub>
-        </a><br />
-        <sub>Frontend Developer</sub>
-    </td>
-    </tr>
-</table>
-</div>
+The hackathon challenges participants to build AI agents that can autonomously interact with the Injective blockchain. DarwinFi shows how AI agents can improve DeFi by creating adaptive strategies that evolve over time to maximize yield in changing market conditions! 
 
 ## 📄 License
 
@@ -213,12 +179,6 @@ The hackathon challenges participants to build AI agents that can autonomously i
 
 For more information, please reach out to the team at [example@darwinfi.io](mailto:example@darwinfi.io)
 
-<div align="center">
-<h3>Join us in revolutionizing DeFi through evolutionary algorithms!</h3>
-<a href="https://twitter.com/darwinfi"><img src="https://img.shields.io/badge/Twitter-@darwinfi-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
-<a href="https://discord.gg/darwinfi"><img src="https://img.shields.io/badge/Discord-DarwinFi-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://t.me/darwinfi"><img src="https://img.shields.io/badge/Telegram-DarwinFi-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
-</div>
 ## 🏗️ Technical Architecture
 
 DarwinFi employs a modular architecture
@@ -439,22 +399,6 @@ Once deployed, you can interact with the DarwinFi platform on Injective Testnet:
 2. Track performance metrics in real-time
 3. Make adjustments to parameters as needed
 
-## Troubleshooting Testnet Deployment
-
-### Common Issues:
-
-1. **Transaction Failures**
-- Ensure you have enough INJ tokens for gas (get from testnet faucet)
-- Check that contract addresses are correctly configured
-
-2. **API Connection Issues**
-- Verify the backend is running and accessible
-- Check CORS configuration if accessing from different domains
-
-3. **Missing Market Data**
-- Ensure market data services are properly configured
-- Verify Injective price feeds are working
-
 ### Getting Testnet INJ:
 
 Visit the [Injective Testnet Faucet](https://testnet.injective.exchange/faucet) to receive test INJ tokens.
@@ -462,25 +406,24 @@ Visit the [Injective Testnet Faucet](https://testnet.injective.exchange/faucet) 
 ## Hackathon Submission Details
 
 **Project Name**: DarwinFi  
-**Team**: The DarwinFi Team  
-**Track**: DeFi Innovation  
+**Team**: NeoLabs Team   
 **Submission Date**: March 3, 2025  
 
-### What Sets DarwinFi Apart
+### What's important about DarwinFi
 
-Unlike traditional yield aggregators, DarwinFi:
+DarwinFi is not like traditional yield aggregators because it has:
 
-1. **AI-Powered Evolution**: Strategies improve automatically through machine learning algorithms
-2. **Adapts to Market Conditions**: Neural networks enable quick response to changing market dynamics
-3. **Learns from Failures**: AI system analyzes unsuccessful strategies to avoid similar mistakes
-4. **Maintains Diversification**: Evolutionary algorithms preserve strategic diversity
-5. **Autonomous Operation**: Agents can operate 24/7 without human intervention
-6. **On-Chain Verification**: All AI decisions are transparent and verifiable on Injective's blockchain
+1. **Evolution**: Strategies improve automatically through machine learning algorithms
+2. **Adaptation**: Neural networks enable quick response to changing market dynamics
+3. **Learning**: AI system analyzes unsuccessful strategies to avoid similar mistakes
+4. **Diversification**: Evolutionary algorithms preserve strategic diversity
+5. **Operation**: Agents can operate 24/7 without human intervention
+6. **Verification**: All AI decisions are transparent and verifiable on Injective's blockchain
 
 ### Technical Achievements
 
-- Implementation of on-chain genetic algorithms and machine learning models for strategy evolution
-- Novel AI risk-scoring system for evaluating strategy fitness across various market conditions
+- Implementation of on chain genetic algorithms and machine learning models for strategy evolution
+- Novel AI risk scoring system for evaluating strategy fitness across various market conditions
 - Efficient capital allocation mechanism that balances exploration and exploitation using reinforcement learning
 - Integration with Injective's advanced trading features to enable complex AI-driven strategies
 - Development of a secure oracle system for feeding external data to on-chain AI models
@@ -488,10 +431,10 @@ Unlike traditional yield aggregators, DarwinFi:
 
 ### Future Development
 
-Based on hackathon feedback, we plan to:
+Based on hackathon feedback we plan to:
 
-- Enhance the AI models with more sophisticated deep learning techniques
-- Implement transformer-based models for better prediction of market trends
+- Bring the AI models with more sophisticated deep learning techniques
+- Implement transformer models for better prediction of market trends
 - Expand to additional blockchains beyond Injective through cross-chain bridges
 - Develop an AI agent marketplace where users can subscribe to different strategies
 - Integrate federated learning to enable collaborative improvement without data sharing
