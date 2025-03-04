@@ -179,12 +179,6 @@ The hackathon challenges participants to build AI agents that can autonomously i
 
 For more information, please reach out to the team at [example@darwinfi.io](mailto:example@darwinfi.io)
 
-<div align="center">
-<h3>Join us in revolutionizing DeFi through evolutionary algorithms!</h3>
-<a href="https://twitter.com/darwinfi"><img src="https://img.shields.io/badge/Twitter-@darwinfi-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
-<a href="https://discord.gg/darwinfi"><img src="https://img.shields.io/badge/Discord-DarwinFi-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://t.me/darwinfi"><img src="https://img.shields.io/badge/Telegram-DarwinFi-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
-</div>
 ## 🏗️ Technical Architecture
 
 DarwinFi employs a modular architecture
