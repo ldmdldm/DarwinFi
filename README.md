@@ -7,7 +7,7 @@
 [![Hackathon](https://img.shields.io/badge/Hackathon-Submission-00FFFF)](https://dorahacks.io/hackathon/injective-ai/detail)
 
 <div align="center">
-<h3>Evolutionary DeFi: Where Yield Strategies Adapt </h3>
+<h3>Evolutionary DeFi: Adaptative Yield Strategies </h3>
 </div>
 
 ## 📋 TL,DR
