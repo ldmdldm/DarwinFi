@@ -407,3 +407,54 @@ const getBalance = async (): Promise<string> => {
     }
 
 
+/**
+* Function to execute a transaction
+* @param {any} transactionData - Information about the transaction to execute
+* @returns {Promise<any>} - Returns transaction result
+*/
+const executeTransaction = async (transactionData: any): Promise<any> => {
+    try {
+    switch (currentWallet) {
+        case WalletType.KEPLR:
+        // Implement Keplr transaction
+        break;
+        case WalletType.METAMASK:
+        if (!provider) throw new Error('Provider not initialized');
+        // Use ethers.js to send transaction
+        break;
+        default:
+        throw new Error('Unsupported wallet type for transactions');
+    }
+    return {}; // Replace with actual transaction result
+    } catch (error) {
+    console.error('Transaction execution failed:', error);
+    throw error;
+    }
+};
+
+// Return the context values
+return (
+    <WalletContext.Provider value={{
+    currentWallet,
+    address,
+    balance,
+    chainId,
+    connectionStatus,
+    error,
+    connectWallet,
+    disconnectWallet,
+    getBalance,
+    refreshBalance,
+    signMessage,
+    executeTransaction,
+    isWalletInstalled,
+    getSupportedWallets,
+    getWalletDisplayName,
+    getWalletIcon
+    }}>
+    {children}
+    </WalletContext.Provider>
+);
+}
+
+export default WalletProvider;
